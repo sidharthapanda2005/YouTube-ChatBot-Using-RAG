@@ -3,7 +3,9 @@ import streamlit as st
 
 from dotenv import load_dotenv
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
+import os
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
