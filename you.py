@@ -1,7 +1,7 @@
 # Change your import at the top to this:
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
-from dotenv import load_dotenv
-load_dotenv()
+import os
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # Then ensure your call looks exactly like this:
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
