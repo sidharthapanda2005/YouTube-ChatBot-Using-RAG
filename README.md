@@ -764,9 +764,9 @@ The application handles several common exceptions:
 
 # 👨‍💻 Author
 
-Your Name
+Sidhartha
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/sidharthapanda2005
 
 ---
 
